@@ -1,0 +1,22 @@
+# Dependências para o Visualizador do Algoritmo Bresenham
+
+# Interface Gráfica (geralmente já incluído com Python)
+tkinter
+
+# Nota: tkinter normalmente vem pré-instalado com Python
+# Se não estiver disponível, instale usando o gerenciador de pacotes do sistema:
+# 
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Fedora: sudo dnf install tkinter  
+# CentOS/RHEL: sudo yum install tkinter
+# macOS: brew install python-tk (se usando Homebrew)
+# Windows: já incluído na instalação padrão do Python
+
+# Versão mínima do Python requerida: 3.6+
+
+# Funcionalidades incluídas:
+# - Interface gráfica moderna com Tkinter
+# - Grade adaptável baseada nas coordenadas de entrada
+# - Barras de rolagem para grades grandes
+# - Visualização comparativa entre algoritmo e linha ideal
+# - Numeração automática das células da grade
